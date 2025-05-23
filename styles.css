@@ -1,0 +1,42 @@
+body {
+    padding: 1rem 30rem;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(30, 172, 197);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#title{
+    color: yellow;
+    -webkit-text-stroke: 1px blue;
+    font-weight: 900;
+}
+
+#tagline{
+    color: white;
+    -webkit-text-stroke: 1px blue;
+    font-weight: 900;
+}
+
+#pokeCard{
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 1rem;
+}
+
+#img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 10rem;
+}
